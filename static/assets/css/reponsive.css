@@ -1,0 +1,31 @@
+@media screen and (max-width: 400px){
+    .wrapper{
+        width:90%;
+    }
+    .wrapper .form-box.login .login-register .register-link,
+    .wrapper .form-box.register .login-register .login-link{
+        color: rgb(240, 199, 206);
+    }
+    wrapper .form-box.register .login-register .login-link
+    .wrapper .form-box h2{
+        font-size: 1.5em;
+    }
+    .remember-forget{
+        flex-direction: column;
+        font-size: .75em;
+    }
+    .form-box .input-box{
+        font-size: .9em;
+    }
+    .form-box .input-box .icon{
+        font-size: 1em;
+    }
+    .form-box .btn{
+        font-size: 1em;
+        color: rgb(240, 199, 206);
+    }
+    .form-box .login-register{
+        color: rgb(240, 199, 206);
+        font-size: .8em;
+    }
+}
