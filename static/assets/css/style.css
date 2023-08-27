@@ -194,10 +194,10 @@ direction: rtl;
 .btn{
     width: 100%;
     height: 45px;
-    /* background:rgb(88, 3, 88); */
-    background: linear-gradient(40deg,rgb(10, 10, 77),rgb(123, 30, 177),rgb(106, 18, 133),rgb(201, 118, 118),rgb(228, 171, 156),rgb(199, 98, 160)) !important;
-    /* color: rgb(213, 179, 241); */
-    color: rgb(26, 2, 26);
+    background:rgb(88, 3, 88);
+    /* background: linear-gradient(40deg,rgb(10, 10, 77),rgb(123, 30, 177),rgb(106, 18, 133),rgb(201, 118, 118),rgb(228, 171, 156),rgb(199, 98, 160)) !important; */
+    color: rgb(213, 179, 241);
+    /* color: rgb(26, 2, 26); */
     border: none;
     outline: none;
     border-radius: 6px;
@@ -246,7 +246,7 @@ direction: rtl;
 .form-box.register{
     padding: 20px;
 }
-input[type="checkbox"]{
+/* input[type="checkbox"]{
     appearance: none;
     width: 60px;
     height: 60px;
@@ -275,35 +275,206 @@ input[type="checkbox"]:checked{
 }
 input[type="checkbox"]:checked::after{
     display: block;
-}
+} */
 
 
 /* start Shopping Card styling  */
+.page2{
+    /* background-color: rgb(238, 198, 211); */
+}
 .header{
     background-image: url(/static/image/49.jpg);
     width: 100vw;
-    height: 120px;
+    height: 130px;
     background-size:cover;
     /* background-position-x: center; */
     background-position-y:500px ;
-    
+    position: relative;
+    /* border-bottom: 3px solid black; */
     
 }
 .container{
     width:min(1200px,80%);
     margin-inline: auto;
+    width: 100%;
 }
 .header .main-header{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    
     
 }
 .header .main-header .logo{
     height: 100px;
     width: 100px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex;
+    justify-content:start;
 }
 .header .main-header .logo img{
     width: 100%;
     height: 100%;
+    
+}
+.header .main-header .user{
+    display: flex;
+    /* padding-top: 5%; */
+    align-items: center;
+    justify-content: end;
+    
+}
+.header .main-header .user a,
+.header .main-header .basket a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: .8em;
+    gap: 5px;
+}
+
+.header .main-header .basket{
+    
+    display: flex;
+    /* padding-top: 5%; */
+    align-items: center;
+    padding-right: 15%;
+}
+
+.header .main-header h4{
+    font-family: 'vazir';
+}
+.header .search{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    
+}
+.header .search .input-search{
+    backdrop-filter: blur(10px);
+    border-bottom: 2px solid black;
+    box-shadow: 0px -8px 20px rgb(0, 0, 0);
+    
+    
+}
+.header .search .input-search label{
+    font-size: .8em;
+    font-weight: bold;
+    font-family: 'vazir';
+}
+.header .search input{
+    background-color: transparent;
+    width: 600px;
+    border: none;
+    outline: none;
+    cursor: url("/static/image/icons8-pen-20.png"),auto;
+}
+.header .search .input-search button{
+    background-color: transparent;
+    border: none;
+}
+.header .search .input-search button i{
+    font-weight: bolder;
+    cursor: pointer;
+}
+.page2 .main-body .company .company-logo{
+    width: 200px;
+    height:200px;
+}
+.page2 .main-body .company a img{
+    width: 100%;
+    height: 100%;
+}
+.main-body .company{
+    flex-direction: column;
+    background-color: rgb(238, 198, 211);
+    margin: 20px 200px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    
+}
+.main-body .company .main_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(196, 168, 204); */
+    /* background-color: rgb(204, 181, 209); */
+    /* background-color: rgb(185, 179, 185); */
+    /* background-color: rgb(238, 198, 211); */
+}
+.main-body .company .time{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    align-items: center;
+    padding:0 120px;
+    padding-bottom: 20px;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    
+}
+.company .time .basket{
+
+    display: flex;
+    justify-content: end;
+    
+}
+.company .time .basket a{
+    display: flex;
+    gap: 5px;
+    text-decoration: none;
+}
+
+.company .time .basket .wheeled{
+    width: 100%;
+    width: 16.5px;
+    height: 16.5px;
+}
+.company .time .basket a h4{
+    width: 100px;
+    height: 20px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: end;
+    padding-left: 20px;
+    color: black;
+    font-family:'vazir';
+    font-size: .9em;
+    
+}
+.company .time .line{
+    /* background-color: rgb(192, 255, 236); */
+    width: 370px;
+    height: 1px;
+    background-color:black;
+    display: flex;
+}
+/* .company .time .line hr{
+    width: 370px;
+    height: 2px;
+    color: black;
+} */
+.company .time .arrivel{
+    /* background-color: blue; */
+    display: flex;
+    
+}
+.company .time .arrivel a{
+    display: flex;
+    font-family: 'vazir';
+    font-size: .9em;
+    gap: 5px;
+    align-items: center;
+    text-decoration: none;
+    padding-right: 20px;
+}
+.company .time .arrivel a i{
+    font-size: 16.3px;
 }
 /* end Shopping Card styling */
 .wrapper .btn2{
