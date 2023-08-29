@@ -54,7 +54,6 @@ direction: rtl;
 }
 .wrapper.active{
     height: 540px;
-
 }
 .wrapper .form-box{
     width: 100%;
@@ -86,8 +85,8 @@ direction: rtl;
     -o-transform: translateX(-400px);
 }
 .wrapper .form-box.register{
-    /*display:none ;
-    */position: absolute;
+    /*display:none ;*/
+    position: absolute;
     transition: none;
     transform: translateX(400px);
     -webkit-transform: translateX(400px);
@@ -150,7 +149,6 @@ direction: rtl;
 .input-box input:focus~label,
 .input-box input:valid~label{
     top: -5px;
-
 }
 .input-box input{
     width: 100%;
@@ -179,8 +177,14 @@ direction: rtl;
     justify-content: space-between;
     
 }
+
+.remember-forget .row {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
 .remember-forget label input{
-    accent-color:var(--bg-color-darkpurple);
     margin-left:5px ;
 }
 .remember-forget a{
@@ -246,10 +250,11 @@ direction: rtl;
 .form-box.register{
     padding: 20px;
 }
-/* input[type="checkbox"]{
+
+input[type="checkbox"]{
     appearance: none;
-    width: 60px;
-    height: 60px;
+    width: 1rem;
+    height: 1rem;
     background-color: plum;
     display: flex;
     align-items: center;
@@ -266,7 +271,7 @@ input[type="checkbox"]::after{
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
     color: rgb(6, 7, 7);
-    font-size: 20px;
+    font-size: 8px;
     display: none;
 }
 input[type="checkbox"]:checked{
@@ -275,13 +280,13 @@ input[type="checkbox"]:checked{
 }
 input[type="checkbox"]:checked::after{
     display: block;
-} */
+}
 
 
 /* start Shopping Card styling  */
-.page2{
-    /* background-color: rgb(238, 198, 211); */
-}
+/* .page2{
+    background-color: rgb(238, 198, 211);
+} */
 .header{
     background-image: url(/static/image/49.jpg);
     width: 100vw;
