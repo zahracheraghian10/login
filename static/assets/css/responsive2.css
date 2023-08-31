@@ -1,0 +1,478 @@
+@media screen and (max-width:1200px) {
+    .company .time .arrivel a {
+        font-size: .8em;
+    }
+
+    .company .time .basket a {
+        font-size: .8em;
+    }
+}
+
+@media screen and (max-width:1140px) {
+
+    .main-header .search .input-search label {
+        font-size: .6em;
+    }
+
+    .products .product-name .product1 .product-info .model a,
+    .products .product-name .product2 .product-info .model a,
+    .products .product-number .check-pos .btn h4 {
+        font-size: 1em;
+    }
+
+    .products .product-name .product1 .product-info .price,
+    .products .product-name .product2 .product-info .price,
+    .products .product-number .check .price-check .amount,
+    .products .product-number .check .price-check .total-price,
+    .products .product-number .check .price-check .discount,
+    .products .product-number .check .price-check .pay,
+    .products .product-number .check .description .amount,
+    .products .product-number .check .description .total-price,
+    .products .product-number .check .description .discount,
+    .products .product-number .check .description .pay {
+        font-size: .85em;
+    }
+
+    .products .product-number .check {
+        font-size: .85em;
+    }
+
+    /* .products .product-name .product1 .img,
+    .products .product-name .product2 .img {
+        height: 65px;
+    } */
+}
+
+@media screen and (max-width:1000px) {
+
+
+
+    /* .products .product-name .product1,
+    .products .product-name .product2{
+        height: 180px;
+    } */
+    .main-body .products .product-name .product1,
+    .main-body .products .product-name .product2 {
+        height: 150px;
+    }
+
+    .products .product-number {
+        height: 310px;
+        padding-top: 20px;
+    }
+
+    .company .time .arrivel a {
+        font-size: .75em;
+    }
+
+    .company .time .basket a {
+        font-size: .75em;
+    }
+
+    .products .product-name .product1 .product-info .model a,
+    .products .product-name .product2 .product-info .model a,
+    .products .product-number .check-pos .btn h4 {
+        font-size: .8em;
+    }
+
+    .products .product-name .product1 .product-info .price,
+    .products .product-name .product2 .product-info .price {
+        font-size: .7em;
+    }
+}
+
+@media screen and (max-width:925px) {
+
+    .company .time .basket a,
+    .company .time .arrivel a {
+        font-size: .65em;
+    }
+
+    .company .time .arrivel a i,
+    .company .time .basket a i {
+        font-size: 1.2em;
+    }
+
+    .main-body .products .product-name .product1,
+    .main-body .products .product-name .product2 {
+        height: 120px;
+    }
+
+    .products .product-number {
+        height: 250px;
+        padding-top: 20px;
+    }
+
+
+}
+
+@media screen and (max-width:860px) {
+
+    .main-body .products .product-name .product1,
+    .main-body .products .product-name .product2 {
+        height: 110px;
+    }
+
+    .products .product-number {
+        height: 230px;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width:800px) {
+
+
+    .products .product-name .product1 .product-info .price,
+    .products .product-name .product2 .product-info .price,
+    .products .product-number .check .price-check .amount,
+    .products .product-number .check .price-check .total-price,
+    .products .product-number .check .price-check .discount,
+    .products .product-number .check .price-check .pay,
+    .products .product-number .check .description .amount,
+    .products .product-number .check .description .total-price,
+    .products .product-number .check .description .discount,
+    .products .product-number .check .description .pay {
+        font-size: .75em;
+    }
+
+    .products .product-name .product1 .product-info .model a,
+    .products .product-name .product2 .product-info .model a {
+        font-size: .75em;
+    }
+
+    .products .product-name .product1 .product-info .price,
+    .products .product-name .product2 .product-info .price {
+        font-size: .65em;
+    }
+
+    .header .search .input-search label {
+        font-size: .75em;
+    }
+
+    .header .main-header .user a,
+    .header .main-header .basket a {
+        font-size: .75em;
+    }
+}
+
+@media screen and (max-width:760px) {
+
+    .header .main-header .user a,
+    .header .main-header .basket a {
+        font-size: .7em;
+    }
+
+    .company .time .basket a,
+    .company .time .arrivel a {
+        font-size: .65em;
+    }
+
+    .company .time .arrivel a i,
+    .company .time .basket a i {
+        font-size: 1em;
+    }
+
+    .products .product-name .product1 .product-info .model a,
+    .products .product-name .product2 .product-info .model a,
+    .products .product-number .check-pos .btn h4 {
+        font-size: .7em;
+    }
+
+    .header .search .input-search label {
+        font-size: .7em;
+    }
+
+}
+
+@media screen and (max-width:700px) {
+
+    .products .product-name .product1 .product-info .price,
+    .products .product-name .product2 .product-info .price,
+    .products .product-number .check .price-check .amount,
+    .products .product-number .check .price-check .total-price,
+    .products .product-number .check .price-check .discount,
+    .products .product-number .check .price-check .pay,
+    .products .product-number .check .description .amount,
+    .products .product-number .check .description .total-price,
+    .products .product-number .check .description .discount,
+    .products .product-number .check .description .pay {
+        font-size: .65em;
+    }
+
+    .products .product-number .check-pos .btn h4 {
+        font-size: .6em;
+    }
+
+}
+
+@media screen and (max-width:680px) {
+
+    .main-body .products .product-name .product1,
+    .main-body .products .product-name .product2 {
+        height: 100px;
+    }
+
+    .products .product-number {
+        height: 210px;
+        padding-top: 20px;
+    }
+
+    .products .product-name .product1 .product-info .model a,
+    .products .product-name .product2 .product-info .model a {
+        font-size: .65em;
+    }
+
+    .products .product-name .product1 .product-info .price,
+    .products .product-name .product2 .product-info .price {
+        font-size: .6em;
+    }
+}
+
+@media screen and (max-width:670px) {
+    .header .search .input-search label {
+        font-size: .65em;
+    }
+
+    .header .main-header .user a,
+    .header .main-header .basket a {
+        font-size: .65em;
+    }
+}
+
+@media screen and (max-width:625px) {
+    .header .search .input-search label {
+        font-size: .6em;
+    }
+}
+
+@media screen and (max-width:620px) {
+
+    .products .product-name .product1 .product-info .price,
+    .products .product-name .product2 .product-info .price,
+    .products .product-number .check .price-check .amount,
+    .products .product-number .check .price-check .total-price,
+    .products .product-number .check .price-check .discount,
+    .products .product-number .check .price-check .pay,
+    .products .product-number .check .description .amount,
+    .products .product-number .check .description .total-price,
+    .products .product-number .check .description .discount,
+    .products .product-number .check .description .pay {
+        font-size: .6em;
+    }
+    .company .time .arrivel,
+    .company .time .basket   {
+        font-size: .6em;
+    }
+
+
+
+}
+
+
+@media screen and (max-width:580px) {
+
+    .products .product-name .product2 .product-info .price,
+    .products .product-number .check .price-check .amount,
+    .products .product-number .check .price-check .total-price,
+    .products .product-number .check .price-check .discount,
+    .products .product-number .check .price-check .pay,
+    .products .product-number .check .description .amount,
+    .products .product-number .check .description .total-price,
+    .products .product-number .check .description .discount,
+    .products .product-number .check .description .pay {
+        font-size: .55em;
+
+    }
+
+    .products .product-number .check-pos .btn h4 {
+        font-size: .5em;
+    }
+
+    .main-body .products .product-name .product1,
+    .main-body .products .product-name .product2 {
+        height: 90px;
+    }
+
+    .products .product-number {
+        height: 190px;
+        padding-top: 20px;
+    }
+
+    .products .product-name .product1 .product-info .model a,
+    .products .product-name .product2 .product-info .model a {
+        font-size: .6em;
+    }
+
+    .products .product-name .product1 .product-info .price,
+    .products .product-name .product2 .product-info .price {
+        font-size: .5em;
+        padding-top: 15px;
+    }
+
+    .header .search .input-search label {
+        font-size: .55em;
+    }
+
+    
+}
+
+
+@media screen and (max-width:565px) {
+
+    .products .product-name .product1 .product-info .price,
+    .products .product-name .product2 .product-info .price,
+    .products .product-number .check .price-check .amount,
+    .products .product-number .check .price-check .total-price,
+    .products .product-number .check .price-check .discount,
+    .products .product-number .check .price-check .pay,
+    .products .product-number .check .description .amount,
+    .products .product-number .check .description .total-price,
+    .products .product-number .check .description .discount,
+    .products .product-number .check .description .pay {
+        font-size: .5em;
+    }
+
+    .header .main-header .user a,
+    .header .main-header .basket a {
+        font-size: .55em;
+    }
+}
+
+@media screen and (max-width:536px) {
+    .header .search .input-search label {
+        font-size: .499em;
+    }
+}
+
+@media screen and (max-width:520px) {
+
+    .main-body .products .product-name .product1,
+    .main-body .products .product-name .product2 {
+        height: 80px;
+    }
+
+    .products .product-number {
+        height: 170px;
+        padding-top: 20px;
+    }
+    .products .product-name .product1 .product-info .model a,
+    .products .product-name .product2 .product-info .model a {
+        font-size: .55em;
+    }
+
+    .products .product-name .product1 .product-info .price,
+    .products .product-name .product2 .product-info .price {
+        padding-top: 8px;
+    }
+    .company .time .arrivel a,
+    .company .time .basket a  {
+        font-size: .55em;
+    }
+}
+
+@media screen and (max-width:490px) {
+
+    .products .product-name .product1 .product-info .price,
+    .products .product-name .product2 .product-info .price,
+    .products .product-number .check .price-check .amount,
+    .products .product-number .check .price-check .total-price,
+    .products .product-number .check .price-check .discount,
+    .products .product-number .check .price-check .pay,
+    .products .product-number .check .description .amount,
+    .products .product-number .check .description .total-price,
+    .products .product-number .check .description .discount,
+    .products .product-number .check .description .pay {
+        font-size: .4em;
+    }
+
+    .header .search .input-search label {
+        font-size: .448em;
+    }
+}
+
+@media screen and (max-width:470px) {
+
+    .products .product-name .product1 .product-info .price,
+    .products .product-name .product2 .product-info .price,
+    .products .product-number .check .price-check .amount,
+    .products .product-number .check .price-check .total-price,
+    .products .product-number .check .price-check .discount,
+    .products .product-number .check .price-check .pay,
+    .products .product-number .check .description .amount,
+    .products .product-number .check .description .total-price,
+    .products .product-number .check .description .discount,
+    .products .product-number .check .description .pay {
+        font-size: 5px;
+    }
+
+    .main-body .products .product-name .product1,
+    .main-body .products .product-name .product2 {
+        height: 70px;
+    }
+
+    .products .product-number {
+        height: 150px;
+        padding-top: 20px;
+    }
+
+    .products .product-name .product1 .product-info .model a,
+    .products .product-name .product2 .product-info .model a {
+        font-size: .5em;
+    }
+
+    .products .product-name .product1 .product-info .price,
+    .products .product-name .product2 .product-info .price {
+        font-size: .45em;
+
+    }
+
+    .header .main-header .user a,
+    .header .main-header .basket a {
+        font-size: .5em;
+    }
+}
+
+@media screen and (max-width:445px) {
+
+    .header .search .input-search label {
+        font-size: .398em;
+
+    }
+}
+
+@media screen and (max-width:425px) {
+
+    .products .product-name .product1 .product-info .model a,
+    .products .product-name .product2 .product-info .model a {
+        font-size: .45em;
+    }
+
+    .products .product-name .product1 .product-info .price,
+    .products .product-name .product2 .product-info .price {
+        font-size: .4em;
+        padding-top: 5px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .header .search .input-search label {
+        font-size: .3em;
+    }
+
+    .header .main-header .user a,
+    .header .main-header .basket a {
+        display: none;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .header .search .input-search label {
+        font-size: 5px;
+    }
+}
+
+@media screen and (max-width:330px) {
+    .header .search .input-search label {
+        font-size: 4.5px;
+    }
+}
