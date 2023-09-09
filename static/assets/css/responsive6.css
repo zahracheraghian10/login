@@ -1,0 +1,118 @@
+@media screen and (max-width:1140px){
+    .main-header .search .input-search label {
+        font-size: .6em;
+    }
+    
+}
+
+
+
+@media screen and (max-width:800px){
+    .header .search .input-search label {
+        font-size: .75em;
+    }
+
+    .header .main-header .user a,
+    .header .main-header .basket a {
+        font-size: .75em;
+    }
+    
+}
+@media screen and (max-width:760px){
+    .header .main-header .user a,
+    .header .main-header .basket a {
+        font-size: .7em;
+    }
+    .header .search .input-search label {
+        font-size: .7em;
+    }
+    
+}
+@media screen and (max-width:700px) {
+    
+
+    
+}
+
+
+@media screen and (max-width:670px){
+    .header .search .input-search label {
+        font-size: .65em;
+    }
+
+    .header .main-header .user a,
+    .header .main-header .basket a {
+        font-size: .65em;
+    }
+}
+
+
+@media screen and (max-width:625px) {
+    .header .search .input-search label {
+        font-size: .6em;
+    }
+}
+@media screen and (max-width:580px){
+    .header .search .input-search label {
+        font-size: .55em;
+    }
+    
+    
+}
+@media screen and (max-width:565px) {
+    .header .main-header .user a,
+    .header .main-header .basket a {
+        font-size: .55em;
+    }
+    
+}
+@media screen and (max-width:536px) {
+    .header .search .input-search label {
+        font-size: .499em;
+    }
+}
+
+@media screen and (max-width:490px) {
+
+
+    .header .search .input-search label {
+        font-size: .448em;
+    }
+}
+@media screen and (max-width:470px) {
+
+
+    .header .main-header .user a,
+    .header .main-header .basket a {
+        font-size: .5em;
+    }
+}
+@media screen and (max-width:445px) {
+
+    .header .search .input-search label {
+        font-size: .398em;
+
+    }
+}
+@media screen and (max-width:400px) {
+    .header .search .input-search label {
+        font-size: .3em;
+    }
+
+    .header .main-header .user a,
+    .header .main-header .basket a {
+        display: none;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .header .search .input-search label {
+        font-size: 5px;
+    }
+}
+
+@media screen and (max-width:330px) {
+    .header .search .input-search label {
+        font-size: 4.5px;
+    }
+}

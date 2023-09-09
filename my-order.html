@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/static/assets/css/style.css">
-    <link rel="stylesheet" href="/static/assets/css/responsive4.css">
-    <title>Profile</title>
+    <link rel="stylesheet" href="/static/assets/css/">
+    <title>My Order</title>
 </head>
-
-<body class="profilebody">
+<body class="my-order">
     <header class="header">
         <div class="main-header">
             <div class="logo">
@@ -32,7 +30,7 @@
         </div>
         <form class="search" action="#">
             <div class="input-search">
-
+                
                 <input type="search" required>
                 <label>جستوجو کنید</label>
                 <button type="submit">
@@ -42,7 +40,9 @@
         </form>
 
     </header>
-    <main class="page4">
+
+
+    <main class="page4" >
         <div class="container">
             <div class="dashboard-box">
                 <div class="dashboard">
@@ -82,50 +82,47 @@
                 <div class="edit-profile">
                     <div class="subj">
                         <h4>
-                            داشبورد
+                        سفارش های من
                         </h4>
                     </div>
-                    <div class="dashboard-info">
+                    <table>
+                        <tr >
+                                <th>شماره سفارش</th>
+                                <th>تاریخ</th>
+                                <th>وضعیت</th>
+                                <th>مبلغ نهایی</th>
+                                <th>جزئیات</th>
+                        </tr>
+                        <tr >
+                            <td>#284</td>
+                            <td>30 مرداد1402</td>
+                            <td>
+                                <button class="shopping-card">سبد خرید</button>
+                            </td>
+                            <td>947,000 <span class="toman">تومان</span></td>
+                            <td>
+                                <button class="visit">مشاهده</button>
+                            </td>
+                            
+                        </tr>
+                        <tr >
+                            <td>#283</td>
+                            <td>29 مرداد 1402</td>
+                            <td>
+                                <button class="status">در انتظار پرداخت</button>
+                            </td>
+                            <td>2<span class="toman">تومان</span></td>
+                            <td>
+                                <button class="visit">مشاهده</button>
+                            </td>
+                        </tr>
                         
-                        <div class="l-name">
-                            <h5 >
-                                <i class='bx bxs-phone-call bx-tada'></i>
-                                شماره تماس: -----
-                            </h5>
-                            <h5 id="border-right">
-
-                                <i class='bx bxs-user'></i>
-                                نام و نام خانوادگی : زهراچراغیان
-
-                            </h5>
-                            <a href="#">
-                                <i class='bx bxs-pencil'></i>
-                            </a>
-                        </div>
-                        <div>
-                            <h5>
-                                <i class='bx bxs-envelope bx-tada' ></i>
-                                ایمیل :
-                            </h5>
-                            <a href="#">
-                                <i class='bx bxs-pencil'></i>
-                            </a>
-                        </div>
-                        <hr>
-                        <div>
-                            <h5>
-                                <i class='bx bxs-home'></i>
-                                آدرس : -----
-                            </h5>
-                            <a href="#">
-                                <i class='bx bxs-pencil'></i>
-                            </a>
-                        </div>
-                    </div>
+                    </table>
                 </div>
             </div>
             </div>
     </main>
+
     <footer>
         <div class="footer">
             <h4>طراحی شده توسط <a href="#">
@@ -145,10 +142,8 @@
             </div>
         </div>
     </footer>
-
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </body>
-
 </html>

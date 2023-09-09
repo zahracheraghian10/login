@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/static/assets/css/style.css">
     <link rel="stylesheet" href="/static/assets/css/responsive3.css">
-    <title>Document</title>
+    <title>CheckOut</title>
 </head>
 
 <body>
@@ -32,8 +32,9 @@
         </div>
         <form class="search" action="#">
             <div class="input-search">
-                <label>جستوجو کنید</label>
+                
                 <input type="search" required>
+                <label>جستوجو کنید</label>
                 <button type="submit">
                     <i class='bx bx-search'></i>
                 </button>
@@ -44,6 +45,7 @@
     <main class="main-body">
         <div class="main-pos3">
             <div class="information">
+                <div class="edit-pos">
                 <div class="receiver-info">
                     <div class="title">
                         <h4>آدرس گیرنده</h4>
@@ -62,7 +64,7 @@
                     <div class="phone-num">
                         <div class="icon">
                             <h6>
-                                <ion-icon name="call"></ion-icon>
+                                <i class='bx bxs-phone-call bx-tada'></i>
                                 شماره تماس:
                             </h6>
                             <h5>
@@ -81,11 +83,15 @@
                         </div>
 
                     </div>
+                    
                 </div>
+                <button class="edit-btn">ویرایش</button>
+            </div>
                 <div class="pay-way">
                     <div class="title ">
                         <h4>
-                            <i class='bx bxs-shopping-bags'></i>
+                            <!-- <i class='bx bxs-shopping-bags'></i> -->
+                            <i class='bx bxs-shopping-bags bx-tada bx-flip-horizontal' ></i>
                             محصولات شما
                         </h4>
                     </div>
@@ -112,38 +118,14 @@
                     </div>
                     <div class="title">
                         <h4>
-                            <i class='bx bxs-truck'></i>
+                            <!-- <i class='bx bxs-truck'></i> -->
+                            <i class='bx bxs-truck bx-fade-right' ></i>
                             نوع پرداخت
                         </h4>
                     </div>
                     <div class="kind-way">
 
-                        <!-- <ul class="pay-option">
-                            <li class="internet">
-                                <input type="radio">
-                                <h5>
-                                    
-                                    پرداخت اینترنتی(به زودی)</h5>
-                                <h6>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ با استفاده از طراحان
-                                    گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و
-                                    برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی
-                                    می باشد.</h6>
-                            </li>
-                            <li>
-                                <h5>پرداخت حضوری(درب فروشگاه)</h5>
-                                <h6>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ با استفاده از طراحان
-                                    گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و
-                                    برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی
-                                    می باشد.</h6>
-                            </li>
-                            <li>
-                                <h5>پرداخت حضوری(درب منزل)</h5>
-                                <h6>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ با استفاده از طراحان
-                                    گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و
-                                    برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی
-                                    می باشد.</h6>
-                            </li>
-                        </ul> -->
+                        
 
                         <div class="online">
                             <input type="radio" name="payment" disabled >
@@ -198,7 +180,8 @@
                     <div class="phone-num">
                         <div class="icon">
                             <h6>
-                                <ion-icon name="call"></ion-icon>
+                                <i class='bx bxs-phone-call bx-tada'></i>
+                                
                                 شماره تماس:
                             </h6>
                             <h5>
@@ -249,11 +232,23 @@
                     <h4>تیم رایا</h4>
                 </a></h4>
             <h6>تمامی حقوق مادی و معنوی این اثر متعلق به تیم رایا است</h6>
+            <div class="connection">
+                <a href="#">
+                    <div class="email"><i class='bx bxs-envelope'></i></div>
+                <div class="telegram"><i class='bx bxl-telegram' ></i></div>
+                <div class="instagram"><i class='bx bxl-instagram-alt' ></i></div>
+                <div class="twitter"><i class='bx bxl-twitter'></i></div>
+                <div class="youtube"><i class='bx bxl-youtube' ></i></div>
+                <div class="tiktok"><i class='bx bxl-tiktok' ></i></div>
+            </a>
+                
+            </div>
         </div>
     </footer>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
 </body>
 
 </html>

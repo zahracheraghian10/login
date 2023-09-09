@@ -5,12 +5,12 @@ from django.db import models
 
 class order(models.Model):
     SATUS_CHOICES={
-        ("1","سبد خرید")
-        ("2","در انتظار پرداخت")
-        ("3","درانتظار تایید")
-        ("4","در حال ارسال")
-        ("5","تحویل شد")
-        ("6","انصراف داده شد")
+        ("1","سبد خرید"),
+        ("2","در انتظار پرداخت"),
+        ("3","درانتظار تایید"),
+        ("4","در حال ارسال"),
+        ("5","تحویل شد"),
+        ("6","انصراف داده شد"),
     }
     reciver_name=models.CharField(max_length=199,verbose_name="نام تحویل گیرنده")
     reciver_adress=models.TextField(verbose_name="آدرس تحویل گیرنده")
@@ -22,21 +22,21 @@ class order(models.Model):
     
     class Meta:
         verbose_name="سفارش"
-        verbose_name_prlural="سفارشات"
+        verbose_name_plural="سفارشات"
 
 class Product(models.Model):
     name=models.CharField(max_length=99,verbose_name=" نام محصول")
-    image=models.ImageFild(null=True,blank=True,verbose_name="عکس محصول")
-    description=models.TextField(verbose_name="  توضیحات محصول")
-    stock=models.PositiveIntegerField(verbose_name="موجودی محصول")
+    image=models.ImageField(null=True,blank=True,verbose_name="عکس محصول")
+    description=models.TextField(verbose_name="  توضیحات محصول",blank=True)
+    stock=models.PositiveIntegerField(verbose_name="موجودی محصول",default=0)
     price=models.PositiveBigIntegerField()
     discout=models.PositiveBigIntegerField(null=True,blank=True,verbose_name="تخفیف محصول")
     special=models.BooleanField(verbose_name="ویژه")
-    selled_count=models.IntegerField(verbose_name="تعداد فروش")
+    selled_count=models.IntegerField(verbose_name="تعداد فروش",default=0)
 
     class Meta:
         verbose_name="محصول"
-        verbose_name_prlural="محصول ها"
+        verbose_name_plural="محصول ها"
         
         def __str__(self):
             return self.name
